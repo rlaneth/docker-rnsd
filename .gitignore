@@ -1,0 +1,5 @@
+conf/reticulum.conf
+
+# OS
+.DS_Store
+Thumbs.db
