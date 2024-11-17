@@ -1,4 +1,6 @@
 conf/reticulum.conf
+storage/*
+!storage/.gitkeep
 
 # OS
 .DS_Store
