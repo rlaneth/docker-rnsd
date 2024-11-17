@@ -8,3 +8,4 @@ services:
     volumes:
       - ./conf/reticulum.conf:/root/.reticulum/config
       - ./storage:/root/.reticulum/storage
+    restart: unless-stopped
