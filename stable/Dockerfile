@@ -1,7 +1,7 @@
 FROM python:3.13-slim-bookworm
 
 # Base upgrades
-RUN apt update && apt -y upgrade
+RUN apt-get update && apt-get -y upgrade
 RUN pip install --upgrade pip
 
 # Install rns from pip
